@@ -1,0 +1,81 @@
+.features-part
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.125rem;
+    color: #5b5b5b;
+}
+
+.header2
+{
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.para
+{
+    font-size: 1.125rem;
+    line-height: 2;
+    font-weight: 300;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+.text-green
+{
+    color: #2ecc71;
+}
+
+.features-part
+{
+    padding: 3.125rem 0;
+    margin-top: 3rem;
+}
+
+.content
+{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* items are displayed vertically, as a column */
+    flex-direction: column;
+}
+
+
+@media (max-width: 575.98px)
+{
+    .features-part
+    {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .header2
+    {
+        font-size: 30px !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+    .features-part
+    {
+        text-align: center;
+    }
+
+    .header2
+    {
+        font-size: 35px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+    .header2
+    {
+        font-size: 40px !important;
+    }
+}
+
