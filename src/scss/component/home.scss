@@ -1,0 +1,344 @@
+.home-main {
+    max-width: 151.92rem;
+    height: 68.3638rem;
+
+    .home {
+        width: 100%;
+        height: 100%;
+        background-color: #2ECC71;
+        position: relative;
+
+        .fruit {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+
+            #photo-1 {
+                width: 7.75%;
+                position: absolute;
+                left: 45%;
+                top: 85.11111111%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            #photo-2 {
+                width: 12.5%;
+                position: absolute;
+                left: 85.45%;
+                top: 26.55555556%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            #photo-3 {
+                width: 11.7%;
+                position: absolute;
+                left: 37.5%;
+                top: 10.22222222%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            #photo-4 {
+                width: 6.05%;
+                position: absolute;
+                left: 77.25%;
+                top: 69.55555556%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            #photo-5 {
+                width: 16.25%;
+                position: absolute;
+                left: -7.45%;
+                // top: 16.55555556%;
+                top: 16.40927931%;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        main {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: 124;
+            overflow: hidden;
+
+            .app-icon {
+                width: 10.45%;
+                position: absolute;
+                left: 18.25585853%;
+                top: 24.23522528%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .about {
+                position: absolute;
+                left: 20.68312288%;
+                top: 47.87057087%;
+
+
+                h2 {
+                    font-weight: 300;
+                    font-size: 5rem;
+                    color: #F4F4F4;
+                    letter-spacing: 0.25rem;
+                    margin-bottom: 1rem;
+                    font-kerning: normal;
+                }
+
+                p {
+                    color: #F4F4F4;
+                    font-weight: lighter;
+                    line-height: 1.9;
+                    font-size: 1.35rem;
+                    font-weight: 300;
+                    letter-spacing: 0.1rem;
+                }
+            }
+
+            .download {
+                width: calc(6.5% + 6.85% + 1.5%);
+                position: absolute;
+                left: 20.68312288%;
+                top: 75%;
+                display: flex;
+                justify-content: space-between;
+
+                #App_Store {
+                    width: 43.77104377%;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                #Google_Play {
+                    width: 46.12794613%;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .photo-Iphone {
+                width: 28.8%;
+                height: 100%;
+                position: absolute;
+                left: 54.9%;
+                top: 16.33333333%;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            z-index: 124;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .home-main {
+        .home {
+            height: 90%;
+
+            main {
+                .app-icon {
+                    top: 30%;
+                    left: 16.25585853%;
+
+                }
+
+                .about {
+                    left: 18.68312288%;
+
+                    h2 {
+                        font-size: 3.5rem;
+                        letter-spacing: 0.2rem;
+                    }
+                }
+
+                .download {
+                    left: 18.68312288%;
+                }
+
+                .photo-Iphone {
+                    left: 66%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 812px) {
+    .home-main {
+        .home {
+            height: 75%;
+
+            main {
+                .app-icon {
+                    left: 11.25585853%;
+
+                }
+
+                .about {
+                    left: 13.68312288%;
+
+                    p {
+                        font-size: 1rem;
+                    }
+                }
+
+                .download {
+                    left: 13.68312288%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .home-main {
+        .home {
+            height: 65%;
+
+            main {
+                .app-icon {
+                    left: 6.25585853%;
+
+                }
+
+                .about {
+                    left: 8.68312288%;
+
+                    p {
+                        font-size: 1rem;
+                    }
+                }
+
+                .download {
+                    left: 8.68312288%;
+                }
+
+                .photo-Iphone {
+                    left: 73%;
+                    top: 20%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .home-main {
+        .home {
+            height: 35%;
+
+            main {
+
+                .app-icon {
+                    top: 24%;
+                    left: 4.25585853%;
+                    width: 15%;
+
+                }
+
+                .about {
+                    left: 6.68312288%;
+
+                    h2 {
+                        font-size: 2rem;
+                        letter-spacing: 0.1rem;
+                    }
+
+                    p {
+                        font-size: 0.6rem;
+                    }
+                }
+
+                .download {
+                    left: 6.68312288%;
+                }
+
+                .photo-Iphone {
+                    left: 73%;
+                    top: 8%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .home-main {
+        .home {
+            main {
+                .app-icon {
+                    left: 1.25585853%;
+                }
+
+                .about {
+                    left: 3.68312288%;
+                }
+
+                .download {
+                    left: 3.68312288%;
+                }
+
+                .photo-Iphone {
+                    left: 74%;
+                    top: 13%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .home-main {
+        .home {
+            main {
+                .app-icon {
+                    left: 0.5585853%;
+                }
+
+                .about {
+                    left: 2.93312288%;
+                }
+
+                .download {
+                    left: 2.93312288%;
+                }
+
+                .photo-Iphone {
+                    display: none;
+                }
+            }
+        }
+    }
+}
